@@ -10,11 +10,21 @@
     <header>
       <h1>API Joker</h1>
     </header>
-    <section>
+    <div class="dropdown">
+      <button class="dropbtn">Types of Jokes</button>
+      <div class="dropdown-content">
+        <p id="generalJoke">General</p>
+        <p id="knockKnockJoke">Knock-Knock</p>
+        <p id="programmingJoke">Programming</p>
+        <p id="randomJoke">Suprise Me!</p>
+      </div>
+    </div>
+    <section class="whereTheJokesGo">
       <button class="request-joke-btn">Tell me a joke!</button>
       <p class="joke-setup">
         <!-- Joke Setup Goes Here -->
       </p>
+      <button class="request-punchline-btn">Give me the punchline!</button>
       <p class="joke-punchline">
         <!-- Punchline Goes Here -->
       </p>
